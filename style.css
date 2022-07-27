@@ -1,0 +1,198 @@
+body {
+	overflow: hidden;
+	background-color: rgb(105, 77, 77);
+}
+
+.zahlen {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	width: 11.63%;
+	height: 17.68%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(247, 236, 79, 0.545);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+#img1 {
+	display: block;
+	position: absolute;
+	align-items: center;
+	top: 6.00%;
+	
+	
+	max-width: 550px;
+	height: 70.49%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#Bild{
+	text-align: center;
+}
+
+#zahl1 {
+	top: 4.16%;
+	left: 3.13%;
+}
+
+#zahl2 {
+	top: 28.46%;
+	left: 3.15%;
+}
+
+#zahl3 {
+	top: 53.92%;
+	left: 3.26%;
+}
+
+#zahl4 {
+	top: 79.27%;
+	left: 2.94%;
+}
+
+#zahl5 {
+	top: 79.43%;
+	left: 18.30%;
+}
+
+#zahl6 {
+	top: 79.43%;
+	left: 33.98%;
+}
+
+#zahl7 {
+	top: 79.43%;
+	left: 50.19%;
+}
+
+#zahl8 {
+	top: 80.20%;
+	left: 65.87%;
+}
+
+#zahl9 {
+	top: 79.43%;
+	left: 83.13%;
+}
+
+#zahl10 {
+	top: 53.74%;
+	left: 83.41%;
+}
+
+#zahl11 {
+	top: 29.22%;
+	left: 83.31%;
+}
+
+#zahl12 {
+	top: 5.14%;
+	left: 83.14%;
+}
+@media only screen and (min-width: 701px) {
+	#img1 {
+		display: flex;
+	    position: absolute;
+	    box-sizing: border-box;
+    	align-items: center;
+		left: 30%;
+	}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+	
+	body {
+	  background-color: black;
+	}
+
+	#img1 {
+		left: 1%;
+	}
+
+	.zahlen{
+		width: 35px;
+		height: 35px;
+	}
+
+	.zahlen:hover{
+		background-color: rgb(32, 51, 221);
+	}
+
+	#zahl1 {
+		top: 79.5%;
+		left: 10.5%;
+	}
+	
+	#zahl2 {
+		top: 79.5%;
+		left: 25.5%;
+	}
+	
+	#zahl3 {
+		top: 79.5%;
+		left: 40.5%;
+	}
+	
+	#zahl4 {
+		top: 79.5%;
+		left: 55.5%;
+	}
+	
+	#zahl5 {
+		top: 79.5%;
+		left: 70.5%;
+	}
+	
+	#zahl6 {
+		top: 79.5%;
+		left: 85.5%;
+	}
+	
+	#zahl7 {
+		top: 89.5%;
+		left: 10.5%;
+	}
+	
+	#zahl8 {
+		top: 89.5%;
+		left: 25.5%;
+	}
+	
+	#zahl9 {
+		top: 89.5%;
+		left: 40.5%;
+	}
+	
+	#zahl10 {
+		top: 89.5%;
+		left: 55.5%;
+	}
+	
+	#zahl11 {
+		top: 89.5%;
+		left: 70.5%;
+	}
+	
+	#zahl12 {
+		top: 89.5%;
+		left: 85.5%;
+	}
+
+  }
